@@ -14,7 +14,7 @@ layer integration experiments.
 <remote name="riscv" fetch="https://github.com/riscv"/>
 <remote name="km" fetch="https://github.com/KorribanMaster"/>
 
-<project name="meta-ox64.git" path="sources/meta-ox64" remote="ox64" revision="main"/>
+<project name="meta-ox64.git" path="sources/meta-ox64" remote="km" revision="main"/>
 <project name="meta-openbouffalo.git" path="sources/meta-openbouffalo" remote="bouffalo" revision="kirkstone"/>
 <project name="meta-riscv.git" path="sources/meta-riscv" remote="riscv" revision="kirkstone"/>
 <project name="meta-bl808.git" path="sources/meta-bl808" remote="fsw" revision="kirkstone"/>
