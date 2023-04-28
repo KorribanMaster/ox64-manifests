@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This manifest is experimental.
+It contains optentially more layer repositories than needed to simplify
+layer integration experiments.
+-->
+<manifest>
+<default sync-j="8" revision="kirkstone"/>
+<remote name="oe"    fetch="git://git.openembedded.org"/>
+<remote name="yocto" fetch="git://git.yoctoproject.org"/>
+<remote name="swu" fetch="https://github.com/sbabic"/>
+<remote name="fsw" fetch="https://github.com/Fishwaldo"/>
+<remote name="bouffalo" fetch="https://github.com/openbouffalo"/>
+<remote name="riscv" fetch="https://github.com/riscv"/>
+
+<project name="meta-openbouffalo.git" path="sources/meta-openbouffalo" remote="bouffalo" revision="kirkstone"/>
+<project name="meta-riscv.git" path="sources/meta-riscv" remote="riscv" revision="kirkstone"/>
+<project name="meta-openbouffalo.git" path="sources/meta-openbouffalo" remote="bouffalo" revision="kirkstone"/>
+<project name="meta-bl808.git" path="sources/meta-bl808" remote="fsw" revision="kirkstone"/>
+<project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="kirkstone"/>
+<project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="kirkstone"/>
+<project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="kirkstone"/>
+<project name="poky.git" path="sources/poky" remote="yocto" revision="kirkstone"/>
+</manifest>
