@@ -23,6 +23,6 @@ repo sync
 ## Build the image
 
 ````shell
-source experimental-init-env
-MACHINE=ox64 bitbake core-image-sato
+source ox64-init-build-env
+bitbake openbouffalo-image
 ``````
