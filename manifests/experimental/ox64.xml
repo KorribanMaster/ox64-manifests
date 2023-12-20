@@ -12,7 +12,7 @@ layer integration experiments.
 <remote name="fsw" fetch="https://github.com/Fishwaldo"/>
 <remote name="bouffalo" fetch="https://github.com/openbouffalo"/>
 <remote name="riscv" fetch="https://github.com/riscv"/>
-<remote name="km" fetch="git://github.com:KorribanMaster"/>
+<remote name="km" fetch="ssh://git@github.com/KorribanMaster"/>
 
 <project name="meta-ox64.git" path="sources/meta-ox64" remote="km" revision="kirkstone">
   <copyfile src="README.md" dest="README.md"/>
